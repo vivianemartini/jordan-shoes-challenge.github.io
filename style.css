@@ -69,7 +69,7 @@ header{
     align: items: center;
 }
 
-.header-promo{
+.header-promo {
     width: 100%;
     background: var(--title);
     padding: 10px 10px;
@@ -222,4 +222,41 @@ footer p {
     font-size: 18px;
     color:  var(--white-off);
     text-align: center;
+}
+
+@media (max-width: 480px) {
+    .hero-container-title {
+        font-size: 28px;
+        width: 90%;
+        margin-left: 30px;
+    }
+    .hero-container-subtitle {
+        font-size: 16px;
+        width: 75%;
+        margin-left: 30px;
+        line-height: 29px;
+    }
+    .product-text-title {
+        font-size: 28px;
+    }
+    .product-text-subtitle {
+        font-size: 16px;
+    }
+    .product-box {
+        width: 374px;
+        height: 302px;
+    }
+}
+
+@media (max-width: 664px) {
+    .hero-container-title {
+        width: 90%;
+        margin-left: 30px;
+    }
+    .hero-container-subtitle {
+        font-size: 16px;
+        width: 50%;
+        margin-left: 30px;
+        line-height: 29px;
+    }
 }
