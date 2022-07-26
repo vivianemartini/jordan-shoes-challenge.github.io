@@ -9,6 +9,5 @@ This is my solution for the [Codelandia - Iuri Silva](https://discord.com/channe
 * CSS
 * HTML
 * Javascript
-* Flexbox
-* Media Queries
-* CSS Variables
+* [Typed.js](https://mattboldt.com/demos/typed-js/)
+* [ScrollReveal](https://scrollrevealjs.org/guide/customization.html)
