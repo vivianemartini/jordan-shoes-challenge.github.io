@@ -210,6 +210,10 @@ img {
     height: 150px;
 }
 
+img:hover {
+    transform: scale(1.2)
+}
+
 footer{
     width: 100%;
     background: var(--title);
